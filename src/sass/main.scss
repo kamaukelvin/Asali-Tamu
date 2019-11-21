@@ -1,0 +1,9 @@
+// anything that will change starts with a $
+// should be parsed in as parameters of the mixin function in same order as listed
+
+@mixin infobox_mixin($border-radius, $border-color, $padding,$margin-bottom, $color){
+    border:$border-radius solid $border-color;
+    padding:$padding;
+    margin-bottom:$margin-bottom;
+    color:$color;
+}
